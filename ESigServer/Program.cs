@@ -31,6 +31,8 @@ ikvm.runtime.Startup.addBootClassPathAssembly(typeof(eu.europa.esig.dss.utils.gu
 ikvm.runtime.Startup.addBootClassPathAssembly(typeof(eu.europa.esig.dss.pades.PAdESUtils).Assembly);
 ikvm.runtime.Startup.addBootClassPathAssembly(typeof(eu.europa.esig.dss.pdf.openpdf.ITextDefaultPdfObjFactory).Assembly);
 
+java.lang.System.setProperty(org.slf4j.simple.SimpleLogger.DEFAULT_LOG_LEVEL_KEY, "DEBUG");
+
 app.MapPost("/validation", (HttpRequest req) =>
 {
 	var tcs = new CommonTrustedCertificateSource();
