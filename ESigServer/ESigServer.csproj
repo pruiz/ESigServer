@@ -10,6 +10,7 @@
     <PackageReference Include="IKVM.Maven.Sdk" Version="1.5.4" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <MavenReference Include="org.slf4j:slf4j-simple" Version="2.0.3" />
     <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-service" Version="5.12.1" />
     <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-pades" Version="5.12.1" />
     <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-pades-openpdf" Version="5.12.1" />

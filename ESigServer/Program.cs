@@ -26,6 +26,7 @@ if (app.Environment.IsDevelopment())
 }
 
 // Register (java) non-transitive service locator dependencies...
+ikvm.runtime.Startup.addBootClassPathAssembly(typeof(org.slf4j.simple.SimpleLoggerFactory).Assembly);
 ikvm.runtime.Startup.addBootClassPathAssembly(typeof(eu.europa.esig.dss.utils.guava.impl.GoogleGuavaUtils).Assembly);
 ikvm.runtime.Startup.addBootClassPathAssembly(typeof(eu.europa.esig.dss.pades.PAdESUtils).Assembly);
 ikvm.runtime.Startup.addBootClassPathAssembly(typeof(eu.europa.esig.dss.pdf.openpdf.ITextDefaultPdfObjFactory).Assembly);
