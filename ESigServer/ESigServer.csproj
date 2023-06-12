@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.5.4" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-service" Version="5.12.1" />
+    <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-pades" Version="5.12.1" />
+    <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-pades-openpdf" Version="5.12.1" />
+    <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-utils-google-guava" Version="5.12.1" />
+    <MavenReference Include="eu.europa.ec.joinup.sd-dss:dss-validation-rest" Version="5.12.1" />
+    <MavenReference Include="eu.europa.ec.joinup.sd-dss:validation-policy" Version="5.12.1" />
+  </ItemGroup>
+
+</Project>
